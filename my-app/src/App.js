@@ -1,47 +1,12 @@
-import './App.css';
+import './Styles/General.css';
 import Navbar from "./components/navbar"
+import ProjectSection from './components/ProjectSection';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <div>
-        <p> asuhdaushduashdausd</p>
-        <p> asuhdaushduashdausd</p>
-        <p> asuhdaushduashdausd</p>
-        <p> asuhdaushduashdausd</p>
-        <p> asuhdaushduashdausd</p>
-        <p> asuhdaushduashdausd</p>
-        <p> asuhdaushduashdausd</p>
-        <p> asuhdaushduashdausd</p>
-        <p> asuhdaushduashdausd</p>
-        <p> asuhdaushduashdausd</p>
-        <p> asuhdaushduashdausd</p>
-        <p> asuhdaushduashdausd</p>
-        <p> asuhdaushduashdausd</p>
-        <p> asuhdaushduashdausd</p>
-        <p> asuhdaushduashdausd</p>
-        <p> asuhdaushduashdausd</p>
-        <p> asuhdaushduashdausd</p>
-        <p> asuhdaushduashdausd</p>
-        <p> asuhdaushduashdausd</p>
-        <p> asuhdaushduashdausd</p>
-        <p> asuhdaushduashdausd</p>
-        <p> asuhdaushduashdausd</p>
-        <p> asuhdaushduashdausd</p>
-        <p> asuhdaushduashdausd</p>
-        <p> asuhdaushduashdausd</p>
-        <p> asuhdaushduashdausd</p>
-        <p> asuhdaushduashdausd</p>
-        <p> asuhdaushduashdausd</p>
-        <p> asuhdaushduashdausd</p>
-        <p> asuhdaushduashdausd</p>
-        <p> asuhdaushduashdausd</p>
-        <p> asuhdaushduashdausd</p>
-        <p> asuhdaushduashdausd</p>
-        <p> asuhdaushduashdausd</p>
-        <p> asuhdaushduashdausd</p>
-      </div>
+      <ProjectSection/>
     </div>
   );
 }

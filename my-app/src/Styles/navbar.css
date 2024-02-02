@@ -46,11 +46,13 @@ nav {
 /* ------------- sliding menu ------------------ */
 .menu.hidden {
     display: none;
+    animation: backOutLeft;
+    animation-duration: 0.2s;
 }
 
 .menu.visible {
     display: inherit;
-    animation: backInLeft;
+    animation: pulse;
     animation-duration: 1s;
 }
 

@@ -1,9 +1,13 @@
 .hero {
     height: 100vh;
     display: flex;
+    padding-top: 4em;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    
+    background-image: url('../../public/assets/hero2.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 .profilepicture {
@@ -12,7 +16,33 @@
     padding: 3vh;
 }
 
-.introtext {
-    padding-right: 5vh;
+.hero .texts {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    padding: 5vw;
+    margin-bottom: 1em;
 }
 
+.hero .texts .introtext1 {
+    text-align: start;
+    color:#5a450c;
+    font-size: 210%;
+    font-family: 'Roboto Light', sans-serif;
+}
+
+.hero .texts .introtext2 {
+    text-align: center;
+    color:#5a450c;
+    font-size: 300%;
+    font-family: 'Roboto Black', sans-serif;
+}
+
+.hero .texts .introtext3 {
+    text-align: end;
+    color:#5a450c;
+    font-size: 210%;
+    font-family: 'Roboto Light', sans-serif;
+}
