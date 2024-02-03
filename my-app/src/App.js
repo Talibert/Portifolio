@@ -1,5 +1,5 @@
 import './Styles/General.css';
-import Navbar from "./components/navbar"
+import Navbar from './components/Navbar';
 import ProjectSection from './components/ProjectSection';
 
 function App() {
