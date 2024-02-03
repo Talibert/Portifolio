@@ -1,5 +1,5 @@
 import React, {useState, useEffect, useRef} from "react";
-import "../Styles/Navbar.css"
+import "../Styles/navbar.css"
 import Hero from "./Hero"
 import 'animate.css'
 
