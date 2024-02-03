@@ -31,6 +31,9 @@
 
 .projectitem .projectblock .projectcontent .projecttag{
     display: flex;
-    justify-content: right;
-    
+    align-self: flex-end;
+    color: white;
+    font-family: 'Roboto Light', sans-serif;
+    padding: 0.5vw;
+    border-radius: 1vw;
 }
