@@ -4,9 +4,9 @@ import { useEffect, useState } from "react"
 export default function Hero() {
     
     // Declaração das variáveis do useState
-    const [text1, setintroText1] = useState("")
-    const [text2, setintroText2] = useState("")
-    const [text3, setintroText3] = useState("")
+    const [text1, setintroText1] = useState(" ")
+    const [text2, setintroText2] = useState(" ")
+    const [text3, setintroText3] = useState(" ")
     
     //Declaração dos textos que serão escritos
     const introText1 = "<Welcome!>"
