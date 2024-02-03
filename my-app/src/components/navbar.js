@@ -1,6 +1,6 @@
 import React, {useState, useEffect, useRef} from "react";
 import "../Styles/navbar.css"
-import Hero from "./Hero"
+import Hero from "./hero"
 import 'animate.css'
 
 export default function Navbar(){
