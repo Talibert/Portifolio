@@ -5,6 +5,11 @@
     line-height: 130%;
 }
 
+body {
+    width: 100vw;
+    background-color: blue;
+}
+
 @font-face {
     font-family: 'Roboto';
     src: url('../fonts/Roboto-Regular.ttf') format('truetype');
