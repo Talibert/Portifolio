@@ -4,7 +4,7 @@
 }
 
 nav {
-    width: 100%;
+    width: 100vw;
     height: 4em;
     background-color: #cda642;
     display: flex;
