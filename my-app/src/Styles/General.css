@@ -10,6 +10,10 @@ body {
     background-color: blue;
 }
 
+.App {
+    width: 100vw;
+}
+
 @font-face {
     font-family: 'Roboto';
     src: url('../fonts/Roboto-Regular.ttf') format('truetype');
