@@ -8,10 +8,12 @@ export default function CertificateSection () {
     const certificates = [
         {title:"NodeJS Avançado", src:"nodejsavançado.jpg", alt:"nodejs avançado", url:"link do certificado"},
         {title:"JavaScript Avançado", src:"javascriptavançado.jpg", alt:"JavaScript avançado", url:"link do certificado"},
+        {title:"JavaScript Avançado", src:"javascriptavançado.jpg", alt:"JavaScript avançado", url:"link do certificado"},
+        {title:"JavaScript Avançado", src:"javascriptavançado.jpg", alt:"JavaScript avançado", url:"link do certificado"},
     ]
 
     const settings = {
-        dots: true,
+        dots: false,
         infinite: true,
         speed: 500,
         slidesToShow: 1,
@@ -25,7 +27,7 @@ export default function CertificateSection () {
                 Meus Certificados
             </h1>
             <div className="certificatespace">
-                <Slider {...settings}>
+                <Slider className="slider" {...settings}>
                     {certificates.map((certificate, index) => (
                         <CertificateItem key={index} title={certificate.title} src={certificate.src} alt={certificate.alt} url={certificate.url}/>
                     ))}
