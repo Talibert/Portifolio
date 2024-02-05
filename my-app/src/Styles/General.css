@@ -6,12 +6,11 @@
 }
 
 body {
-    width: 100%;
-    background-color: blue;
+    width: 100vw;
 }
 
 .App {
-    width: 100%;
+    width: 100vw;
 }
 
 @font-face {
