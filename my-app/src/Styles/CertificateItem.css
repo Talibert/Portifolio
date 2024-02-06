@@ -3,6 +3,8 @@
     margin: 1em;
     padding: 1em;
     height: 80vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .certificateitem .certificatetitle {
@@ -16,4 +18,8 @@
 
 .certificateitem .certificatelink .certificateimage{
     width: 50%;
+}
+
+.certificateitem .certificatedescription {
+    text-align: justify;
 }

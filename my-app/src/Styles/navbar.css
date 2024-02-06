@@ -40,7 +40,6 @@ nav {
     background-color: #cda642;
     position: fixed;
     top: 0;
-    opacity: 0.8;
 }
 
 .menu.hidden {
@@ -53,6 +52,24 @@ nav {
     display: inherit;
     animation: pulse;
     animation-duration: 1s;
+}
+
+.menu.visible .menuoptions{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10vh;
+    padding-left: 2vw;
+}
+
+.menu.visible .menuoptions:hover{
+    cursor: pointer;
+}
+
+.menu.visible .menuoptions .menulink{
+    padding-bottom: 3vh;
+    font-size: 25px;
+    font-family: 'Roboto Black', sans-serif;
+
 }
 
 .burger-bar.clicked:nth-child(1){

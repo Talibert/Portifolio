@@ -2,6 +2,7 @@ import React, {useState, useEffect, useRef} from "react";
 import "../Styles/navbar.css"
 import Hero from "./hero"
 import 'animate.css'
+import { Link } from 'react-scroll'
 
 export default function Navbar(){
 
@@ -68,7 +69,7 @@ export default function Navbar(){
 
     const transitionStyleMenu = {
         // Opacidade de 1 a 0 conforme a visibilidade
-        opacity: isVisible ? 0.8 : 0,
+        opacity: isVisible ? 0.9 : 0,
         width: isVisible ? "10em" : 0,
         // Garante que o conteúdo não seja exibido
         overflow: 'hidden',
@@ -92,13 +93,39 @@ export default function Navbar(){
 
             {/*menu que é aberto quando clicamos no menu hamburguer*/}
             <div style={transitionStyleMenu} className={isVisible? menu_class : "menu hidden"}
-            >   
-                <p>teste</p>
-                <p>teste</p>
-                <p>teste</p>
-                <p>teste</p>
-                <p>teste</p>
-                <p>teste</p>
+            >   <div className="menuoptions">
+                    <Link
+                        className="menulink"
+                        to="project"
+                        spy={true}
+                        smooth={true}
+                        offset={-50}
+                        duration={500}
+                        >
+                        Projects
+                    </Link>
+                    <Link
+                        className="menulink"
+                        to="certificate"
+                        spy={true}
+                        smooth={true}
+                        offset={-50}
+                        duration={500}
+                        >
+                        Certificates
+                    </Link>
+                    <Link
+                        className="menulink"
+                        to="college"
+                        spy={true}
+                        smooth={true}
+                        offset={-50}
+                        duration={500}
+                        >
+                        College
+                    </Link>
+                </div>
+                
             </div>
             <Hero/>
         </div>

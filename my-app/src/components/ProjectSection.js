@@ -9,7 +9,7 @@ export default function ProjectSection() {
     ]
     
     return(
-        <div className="projectsection">
+        <div id="project" className="projectsection">
             <h1 className="title">
                 My Projects
             </h1>

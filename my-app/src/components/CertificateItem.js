@@ -1,6 +1,6 @@
 import "../Styles/CertificateItem.css"
 
-export default function CertificateItem ({title, school, src, alt, url}) {
+export default function CertificateItem ({title, school, src, alt, url, description}) {
     return(
         <div className="certificateitem">
             <h1 className="certificatetitle">
@@ -9,6 +9,7 @@ export default function CertificateItem ({title, school, src, alt, url}) {
             <a className="certificatelink" href={url} target="_blank" rel="noopener noreferrer">
                 <img className="certificateimage" src={src} alt={alt}></img>
             </a>
+            <p className="certificatedescription">{description}</p>
         </div>
     )
 }

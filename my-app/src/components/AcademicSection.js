@@ -8,7 +8,7 @@ export default function AcademicSection() {
     ]
     
     return(
-        <div className="academicsection">
+        <div id="college" className="academicsection">
             <h1 className="title">
                 College
             </h1>
