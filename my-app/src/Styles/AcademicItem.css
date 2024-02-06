@@ -1,0 +1,24 @@
+.academicitem {
+    border: 1px solid rgb(0, 0, 0);
+    margin: 1em;
+    padding: 1em;
+}
+
+.academicitem .academictitle {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.academicitem .academicblock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.academicitem .academicblock .academicimage{
+    width: 100%;
+}
+
+.academicitem .academicblock .academicdescription{
+    text-align: justify;
+}

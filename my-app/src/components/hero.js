@@ -87,9 +87,12 @@ export default function Hero() {
 
         <div className="hero">
             <div className="texts">
-                {/*<img className = "profilepicture" src="/assets/guilhermeprofile.jpg" alt="foto do guilherme"></img>*/}
-                <h1 className = "introtext1">{text1}</h1>
+                <h1 className ="introtext1">{text1}</h1>
+            </div>
+            <div className="texts">
                 <h1 className="introtext2">{text2}</h1>
+            </div>
+            <div className="texts">
                 <h1 className="introtext3">{text3}</h1>
             </div>
         </div>
