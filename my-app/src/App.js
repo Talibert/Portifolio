@@ -3,6 +3,7 @@ import Navbar from './components/navbar';
 import ProjectSection from './components/ProjectSection';
 import CertificateSection from './components/CertificateSection';
 import AcademicSection from './components/AcademicSection';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <ProjectSection/>
       <CertificateSection/>
       <AcademicSection/>
+      <Footer/>
     </div>
   );
 }
