@@ -65,6 +65,7 @@ export default function Navbar(){
         overflow: 'hidden',
         // Velocidade de transição para as propriedades opacity e height
         transition: 'opacity 0.5s ease, height 0.5s ease', // Adicione as propriedades de transição aqui
+        zIndex: 2,
     };
 
     const transitionStyleMenu = {
@@ -75,6 +76,7 @@ export default function Navbar(){
         overflow: 'hidden',
         // Velocidade de transição para as propriedades opacity e height
         transition: 'opacity 0.5s ease, width 0.5s ease', // Adicione as propriedades de transição aqui
+        zIndex: 1,
     };
 
     return(
