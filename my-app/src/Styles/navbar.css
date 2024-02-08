@@ -57,8 +57,8 @@ nav {
 .menu.visible .menuoptions{
     display: flex;
     flex-direction: column;
-    padding-top: 10vh;
-    padding-left: 2vw;
+    padding-top: 13vh;
+    padding-left: 25px;
 }
 
 .menu.visible .menuoptions:hover{
@@ -67,7 +67,7 @@ nav {
 
 .menu.visible .menuoptions .menulink{
     padding-bottom: 3vh;
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Roboto Black', sans-serif;
 
 }

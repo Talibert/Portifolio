@@ -1,5 +1,6 @@
 import "../Styles/Hero.css"
 import { useEffect, useState } from "react"
+import StackSection from "./StackSection"
 
 export default function Hero() {
     
@@ -86,15 +87,16 @@ export default function Hero() {
     return(
 
         <div className="hero">
-            <div className="texts">
-                <h1 className ="introtext1">{text1}</h1>
+            <div className="profile">
+                <div className="texts">
+                    <h1 className="introtext1">{text1}</h1>
+                    <h1 className="introtext2">{text2}</h1>
+                    <h1 className="introtext3">{text3}</h1>
+                </div>
+                <img>
+                </img>
             </div>
-            <div className="texts">
-                <h1 className="introtext2">{text2}</h1>
-            </div>
-            <div className="texts">
-                <h1 className="introtext3">{text3}</h1>
-            </div>
+            <StackSection/>
         </div>
     )
 }

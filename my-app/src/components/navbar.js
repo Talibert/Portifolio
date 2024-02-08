@@ -33,10 +33,6 @@ export default function Navbar(){
         setIsMenuClicked(!isMenuClicked)
     }
 
-    const menuClicked = () => {
-        setIsVisible(false)
-    }
-
     // Função chamada sempre que há rolagem no scroll
     useEffect(() => {
         // Função para definir a visibilidade
@@ -74,7 +70,7 @@ export default function Navbar(){
     const transitionStyleMenu = {
         // Opacidade de 1 a 0 conforme a visibilidade
         opacity: isVisible ? 0.9 : 0,
-        width: isVisible ? "10em" : 0,
+        width: isVisible ? "200px" : 0,
         // Garante que o conteúdo não seja exibido
         overflow: 'hidden',
         // Velocidade de transição para as propriedades opacity e height
@@ -98,7 +94,7 @@ export default function Navbar(){
             {/*menu que é aberto quando clicamos no menu hamburguer*/}
             <div style={transitionStyleMenu} className={isVisible? menu_class : "menu hidden"}
             >   <div className="menuoptions">
-                    <Link onClick={menuClicked}
+                    <Link
                         className="menulink"
                         to="project"
                         spy={true}
