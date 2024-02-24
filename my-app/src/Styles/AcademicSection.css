@@ -1,31 +1,30 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .academicsection {
-    width: 100%;
-    background-color: #ffffff;
-    padding-bottom: 1vw;
+  width: 100%;
+  background-color: #ffffff;
+  padding-bottom: 1vw;
 }
 
 .academicsection .title {
-    text-align: center;
-    padding-top: 1em;
-    font-size: 150%;
-    font-family: 'Roboto Italic', sans-serif;
-    color:#5a450c;
-    padding-bottom: 1em;
-    border-bottom: 1px solid #5a450c;
-    margin-left: 3em;
-    margin-right: 3em;
+  text-align: center;
+  padding-top: 1em;
+  font-size: 150%;
+  font-family: 'Roboto Italic', sans-serif;
+  color: #5a450c;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #5a450c;
+  margin-left: 3em;
+  margin-right: 3em;
 }
 
 .academicsection .academicspace {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

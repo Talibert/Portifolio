@@ -1,59 +1,58 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .hero {
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    padding-top: 4em;
-    flex-direction: column;
-    align-items: center;
-    /*background-image: url('../../public/assets/hero2.jpg');*/
-    background-size: cover;
-    background-position: center;
-    animation: fadeIn;
-    animation-duration: 1s;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  padding-top: 4em;
+  flex-direction: column;
+  align-items: center;
+  /*background-image: url('../../public/assets/hero2.jpg');*/
+  background-size: cover;
+  background-position: center;
+  animation: fadeIn;
+  animation-duration: 1s;
 }
 
 .hero .profile {
-    display: flex;
-    width: 100%;
-    height: 70%;
+  display: flex;
+  width: 100%;
+  height: 70%;
 }
 
 .hero .texts {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    height: 100%;
-    padding-top: 2vh;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+  padding-top: 2vh;
+  justify-content: center;
 }
 
 .hero .texts .introtext1 {
-    color:#5a450c;
-    font-size: 150%;
-    font-family: 'Roboto Light', sans-serif;
-    padding-left: 5vw;
-    padding-bottom: 2vh;
+  color: #5a450c;
+  font-size: 150%;
+  font-family: 'Roboto Light', sans-serif;
+  padding-left: 5vw;
+  padding-bottom: 2vh;
 }
 
 .hero .texts .introtext2 {
-    color:#5a450c;
-    font-size: 150%;
-    font-family: 'Roboto Black', sans-serif;
-    padding-left: 5vw;
-    padding-bottom: 2vh;
+  color: #5a450c;
+  font-size: 150%;
+  font-family: 'Roboto Black', sans-serif;
+  padding-left: 5vw;
+  padding-bottom: 2vh;
 }
 
 .hero .texts .introtext3 {
-    color:#5a450c;
-    font-size: 150%;
-    font-family: 'Roboto Light', sans-serif;
-    padding-left: 5vw;
-    padding-bottom: 2vh;
-
+  color: #5a450c;
+  font-size: 150%;
+  font-family: 'Roboto Light', sans-serif;
+  padding-left: 5vw;
+  padding-bottom: 2vh;
 }

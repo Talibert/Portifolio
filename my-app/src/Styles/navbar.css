@@ -1,93 +1,91 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 nav {
-    width: 100%;
-    height: 4em;
-    background-color: #cda642;
-    display: flex;
-    flex-direction: column;
-    padding: 1em;
-    position: fixed;
-    z-index: 1;
+  width: 100%;
+  height: 4em;
+  background-color: #cda642;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  position: fixed;
+  z-index: 1;
 }
 
 .burger-menu {
-    height: 100%;
-    width: 3em;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
-    cursor: pointer;
-
+  height: 100%;
+  width: 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  cursor: pointer;
 }
 
 .burger-bar {
-    width: 2.5em;
-    height: 0.3em;
-    background-color: #5a450c;
-    border-radius: 0.5em;
+  width: 2.5em;
+  height: 0.3em;
+  background-color: #5a450c;
+  border-radius: 0.5em;
 }
 
 .menu {
-    width: 20vw;
-    max-width: 300px;
-    height: 100vh;
-    background-color: #cda642;
-    position: fixed;
-    top: 0;
+  width: 20vw;
+  max-width: 300px;
+  height: 100vh;
+  background-color: #cda642;
+  position: fixed;
+  top: 0;
 }
 
 .menu.hidden {
-    display: none;
-    animation: backOutLeft;
-    animation-duration: 0.2s;
+  display: none;
+  animation: backOutLeft;
+  animation-duration: 0.2s;
 }
 
 .menu.visible {
-    display: inherit;
-    animation: pulse;
-    animation-duration: 1s;
+  display: inherit;
+  animation: pulse;
+  animation-duration: 1s;
 }
 
-.menu.visible .menuoptions{
-    display: flex;
-    flex-direction: column;
-    padding-top: 13vh;
-    padding-left: 25px;
+.menu.visible .menuoptions {
+  display: flex;
+  flex-direction: column;
+  padding-top: 13vh;
+  padding-left: 25px;
 }
 
-.menu.visible .menuoptions:hover{
-    cursor: pointer;
+.menu.visible .menuoptions:hover {
+  cursor: pointer;
 }
 
-.menu.visible .menuoptions .menulink{
-    padding-bottom: 3vh;
-    font-size: 20px;
-    font-family: 'Roboto Black', sans-serif;
-
+.menu.visible .menuoptions .menulink {
+  padding-bottom: 3vh;
+  font-size: 20px;
+  font-family: 'Roboto Black', sans-serif;
 }
 
-.burger-bar.clicked:nth-child(1){
-    transform: rotate(45deg) translate(0.4em, 1.01em);
-    transition: ease-out 0.5s;
+.burger-bar.clicked:nth-child(1) {
+  transform: rotate(45deg) translate(0.4em, 1.01em);
+  transition: ease-out 0.5s;
 }
 
-.burger-bar.clicked:nth-child(2){
-    transform: scale(0.01);
-    transition: ease-out 0.5s;
+.burger-bar.clicked:nth-child(2) {
+  transform: scale(0.01);
+  transition: ease-out 0.5s;
 }
 
-.burger-bar.clicked:nth-child(3){
-    transform: rotate(135deg) translate(-0.2em, 0.8em);
-    transition: ease-out 0.5s;
+.burger-bar.clicked:nth-child(3) {
+  transform: rotate(135deg) translate(-0.2em, 0.8em);
+  transition: ease-out 0.5s;
 }
 
 .burger-bar.unclicked {
-    transform: rotate(0) translate(0);
-    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
+  transform: rotate(0) translate(0);
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
 }

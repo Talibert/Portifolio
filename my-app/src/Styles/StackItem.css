@@ -1,14 +1,14 @@
 .stackitem {
-    display: flex;
-    height: 40%;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  height: 40%;
+  justify-content: center;
+  align-items: center;
 }
 
 .stackitem .stackimage {
-    width: 90%;
-    max-width: 150px;
-    max-height: 150px;
-    animation: backInUp;
-    animation-duration: 1.5s;
+  width: 90%;
+  max-width: 150px;
+  max-height: 150px;
+  animation: backInUp;
+  animation-duration: 1.5s;
 }

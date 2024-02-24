@@ -9,10 +9,10 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <ProjectSection/>
-      <AcademicSection/>
-      <CertificateSection/>
-      <Footer/>
+      <ProjectSection />
+      <AcademicSection />
+      <CertificateSection />
+      <Footer />
     </div>
   );
 }
